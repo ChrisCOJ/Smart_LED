@@ -15,7 +15,7 @@
 #define RMT_LED_STRIP_GPIO_NUM          GPIO_NUM_27
 #define MOSFET_TOGGLE_GPIO              GPIO_NUM_26
 #define MOSFET_GATE_GPIO                GPIO_NUM_12
-#define PIR_GPIO                        GPIO_NUM_25
+#define PIR_GPIO                        GPIO_NUM_35
 
 #define EXAMPLE_LED_NUMBERS             300
 #define EXAMPLE_CHASE_SPEED_MS          10
@@ -85,7 +85,7 @@ void disable_timer(TimerHandle_t xTimer) {
     pir_timer_active = false;
     toggle_mosfet_gate = 0;
 
-    vTaskDelay(2000 / portTICK_PERIOD_MS);
+    ESP_LOGI("PIR", "TIMER OFF");
 }
 
 
@@ -150,6 +150,8 @@ void app_main(void)
     rmt_transmit_config_t tx_config = {
         .loop_count = 0, // no transfer loop
     };
+
+    TimerHandle_t pir_off = xTimerCreate("pir_off", pdMS_TO_TICKS(4000), pdFALSE, NULL, disable_timer);  // 20 seconds cd
     while (1) {
         if (!gpio_get_level(MOSFET_TOGGLE_GPIO)) {
             toggle_mosfet_gate ^= 1;
@@ -158,12 +160,14 @@ void app_main(void)
         }
 
         if (gpio_get_level(PIR_GPIO) && !pir_timer_active) {
-            toggle_mosfet_gate = 1;
+            vTaskDelay(50 / portTICK_PERIOD_MS);  // debounce delay
 
-            // Start a cooldown timer where the pir will not be read by the mcu gpio
-            pir_timer_active = true;
-            TimerHandle_t pir_off = xTimerCreate("pir_off", pdMS_TO_TICKS(2000), pdFALSE, NULL, disable_timer);  // 20 seconds cd
-            xTimerStart(pir_off, 0);
+            if (gpio_get_level(PIR_GPIO)) {
+                toggle_mosfet_gate = 1;
+                // Start a cooldown timer where the pir will not be read by the mcu gpio
+                pir_timer_active = true;
+                xTimerStart(pir_off, 0);
+            }
         }
 
         if (toggle_mosfet_gate) {

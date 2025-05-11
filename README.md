@@ -1,5 +1,6 @@
 | Supported Targets | ESP32 | ESP32-C3 | ESP32-C5 | ESP32-C6 | ESP32-H2 | ESP32-P4 | ESP32-S2 | ESP32-S3 |
 | ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+
 # RMT Transmit Example -- LED Strip
 
 (See the README.md file in the upper level 'examples' directory for more information about examples.)
@@ -12,9 +13,9 @@ This example shows how to drive an addressable LED strip [WS2812](https://cdn-sh
 
 ### Hardware Required
 
-* A development board with any supported Espressif SOC chip (see `Supported Targets` table above)
-* A USB cable for Power supply and programming
-* A WS2812 LED strip
+- A development board with any supported Espressif SOC chip (see `Supported Targets` table above)
+- A USB cable for Power supply and programming
+- A WS2812 LED strip
 
 Connection :
 
@@ -34,7 +35,7 @@ The GPIO number used in this example can be changed according to your board, by 
 
 Run `idf.py -p PORT flash monitor` to build, flash and monitor the project.
 
-(To exit the serial monitor, type ``Ctrl-]``.)
+(To exit the serial monitor, type `Ctrl-]`.)
 
 See the [Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for full steps to configure and use ESP-IDF to build projects.
 
@@ -47,7 +48,6 @@ I (323) example: Create RMT TX channel
 I (343) example: Install led strip encoder
 I (353) example: Start LED rainbow chase
 ```
-
 
 After you seeing this log, you should see a rainbow chasing demonstration pattern. To change the chasing speed, you can update the `EXAMPLE_CHASE_SPEED_MS` value in [source file](main/led_strip_example_main.c).
 

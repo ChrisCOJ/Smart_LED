@@ -2177,3 +2177,568 @@
 136	155	1746971766014832000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
 155	6351	1746971766015346153	CMakeFiles/flash	2765c6b3c4f30303
 155	6351	1746971766015346153	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+74	154	1746972464532489264	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	154	1746972464532489264	bootloader/bootloader.elf	e0e07038ae738653
+74	154	1746972464532489264	bootloader/bootloader.bin	e0e07038ae738653
+74	154	1746972464532489264	bootloader/bootloader.map	e0e07038ae738653
+74	154	1746972464532489264	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	154	1746972464532489264	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+74	154	1746972464532489264	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+74	154	1746972464532489264	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+154	163	1746972464612862227	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+154	163	1746972464612862227	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+163	183	1746972464641081000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+163	183	1746972464641081000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+163	183	1746972464641081000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+163	183	1746972464641081000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+73	322	1746972464531332838	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+322	373	1746972464780431585	esp-idf/main/libmain.a	9d5d9ddeb2892772
+373	5348	1746972469785432058	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+373	5348	1746972469785432058	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5348	5905	1746972469806351274	ws2812b-led.elf	eb1580d64199c79f
+5906	6055	1746972470513301971	.bin_timestamp	65ccd08bc94a059
+5906	6055	1746972470513301971	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6055	6098	1746972470513945644	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6055	6098	1746972470513945644	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+64	109	1746972471527233857	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+64	109	1746972471527233857	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+64	129	1746972471526839187	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+64	129	1746972471526839187	bootloader/bootloader.elf	e0e07038ae738653
+64	129	1746972471526839187	bootloader/bootloader.bin	e0e07038ae738653
+64	129	1746972471526839187	bootloader/bootloader.map	e0e07038ae738653
+64	129	1746972471526839187	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+64	129	1746972471526839187	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+64	129	1746972471526839187	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+64	129	1746972471526839187	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+129	138	1746972471591637145	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+129	138	1746972471591637145	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+138	157	1746972471619419000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+138	157	1746972471619419000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+138	157	1746972471619419000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+138	157	1746972471619419000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+157	6516	1746972471620048382	CMakeFiles/flash	2765c6b3c4f30303
+157	6516	1746972471620048382	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+73	150	1746972608919839938	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	150	1746972608919839938	bootloader/bootloader.elf	e0e07038ae738653
+73	150	1746972608919839938	bootloader/bootloader.bin	e0e07038ae738653
+73	150	1746972608919839938	bootloader/bootloader.map	e0e07038ae738653
+73	150	1746972608919839938	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	150	1746972608919839938	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+73	150	1746972608919839938	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+73	150	1746972608919839938	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+150	159	1746972608996975166	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+150	159	1746972608996975166	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+159	178	1746972609024808000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+159	178	1746972609024808000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+159	178	1746972609024808000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+159	178	1746972609024808000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+72	258	1746972608919271808	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+258	310	1746972609105353863	esp-idf/main/libmain.a	9d5d9ddeb2892772
+310	5339	1746972614148296028	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+310	5339	1746972614148296028	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5339	5914	1746972614186378971	ws2812b-led.elf	eb1580d64199c79f
+5914	6063	1746972614909477510	.bin_timestamp	65ccd08bc94a059
+5914	6063	1746972614909477510	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6063	6106	1746972614910239517	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6063	6106	1746972614910239517	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+67	117	1746972622577401059	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+67	117	1746972622577401059	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+67	137	1746972622577002889	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+67	137	1746972622577002889	bootloader/bootloader.elf	e0e07038ae738653
+67	137	1746972622577002889	bootloader/bootloader.bin	e0e07038ae738653
+67	137	1746972622577002889	bootloader/bootloader.map	e0e07038ae738653
+67	137	1746972622577002889	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+67	137	1746972622577002889	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+67	137	1746972622577002889	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+67	137	1746972622577002889	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+137	145	1746972622646657846	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+137	145	1746972622646657846	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+145	165	1746972622674183000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+145	165	1746972622674183000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+145	165	1746972622674183000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+145	165	1746972622674183000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+62	106	1746972623632443622	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+62	106	1746972623632443622	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+62	125	1746972623632023493	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+62	125	1746972623632023493	bootloader/bootloader.elf	e0e07038ae738653
+62	125	1746972623632023493	bootloader/bootloader.bin	e0e07038ae738653
+62	125	1746972623632023493	bootloader/bootloader.map	e0e07038ae738653
+62	125	1746972623632023493	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+62	125	1746972623632023493	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+62	125	1746972623632023493	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+62	125	1746972623632023493	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+125	134	1746972623695330231	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+125	134	1746972623695330231	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+134	153	1746972623722884000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+134	153	1746972623722884000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+134	153	1746972623722884000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+134	153	1746972623722884000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+153	6362	1746972623723386548	CMakeFiles/flash	2765c6b3c4f30303
+153	6362	1746972623723386548	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+74	153	1746972811853931229	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	153	1746972811853931229	bootloader/bootloader.elf	e0e07038ae738653
+74	153	1746972811853931229	bootloader/bootloader.bin	e0e07038ae738653
+74	153	1746972811853931229	bootloader/bootloader.map	e0e07038ae738653
+74	153	1746972811853931229	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	153	1746972811853931229	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+74	153	1746972811853931229	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+74	153	1746972811853931229	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+153	163	1746972811932728679	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+153	163	1746972811932728679	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+163	183	1746972811962295000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+163	183	1746972811962295000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+163	183	1746972811962295000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+163	183	1746972811962295000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+73	297	1746972811852804261	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+297	350	1746972812076634465	esp-idf/main/libmain.a	9d5d9ddeb2892772
+350	5359	1746972817117568446	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+350	5359	1746972817117568446	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5359	5914	1746972817138636830	ws2812b-led.elf	eb1580d64199c79f
+5915	6064	1746972817842683002	.bin_timestamp	65ccd08bc94a059
+5915	6064	1746972817842683002	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6064	6106	1746972817843577593	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6064	6106	1746972817843577593	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+74	118	1746972818699701827	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+74	118	1746972818699701827	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+74	139	1746972818699311574	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	139	1746972818699311574	bootloader/bootloader.elf	e0e07038ae738653
+74	139	1746972818699311574	bootloader/bootloader.bin	e0e07038ae738653
+74	139	1746972818699311574	bootloader/bootloader.map	e0e07038ae738653
+74	139	1746972818699311574	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	139	1746972818699311574	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+74	139	1746972818699311574	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+74	139	1746972818699311574	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+139	147	1746972818764433077	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+139	147	1746972818764433077	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+147	167	1746972818791729000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+147	167	1746972818791729000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+147	167	1746972818791729000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+147	167	1746972818791729000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+167	6383	1746972818792257434	CMakeFiles/flash	2765c6b3c4f30303
+167	6383	1746972818792257434	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+78	159	1746973004765643974	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+78	159	1746973004765643974	bootloader/bootloader.elf	e0e07038ae738653
+78	159	1746973004765643974	bootloader/bootloader.bin	e0e07038ae738653
+78	159	1746973004765643974	bootloader/bootloader.map	e0e07038ae738653
+78	159	1746973004765643974	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+78	159	1746973004765643974	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+78	159	1746973004765643974	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+78	159	1746973004765643974	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+159	168	1746973004846011631	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+159	168	1746973004846011631	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+168	187	1746973004873845000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+168	187	1746973004873845000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+168	187	1746973004873845000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+168	187	1746973004873845000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+77	309	1746973004764343217	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+310	364	1746973004996880477	esp-idf/main/libmain.a	9d5d9ddeb2892772
+364	5394	1746973010061847740	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+364	5394	1746973010061847740	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5395	5952	1746973010082567380	ws2812b-led.elf	eb1580d64199c79f
+5953	6097	1746973010784932834	.bin_timestamp	65ccd08bc94a059
+5953	6097	1746973010784932834	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6097	6140	1746973010785473230	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6097	6140	1746973010785473230	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+73	117	1746973011645340994	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+73	117	1746973011645340994	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+73	137	1746973011644964995	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	137	1746973011644964995	bootloader/bootloader.elf	e0e07038ae738653
+73	137	1746973011644964995	bootloader/bootloader.bin	e0e07038ae738653
+73	137	1746973011644964995	bootloader/bootloader.map	e0e07038ae738653
+73	137	1746973011644964995	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	137	1746973011644964995	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+73	137	1746973011644964995	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+73	137	1746973011644964995	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+137	146	1746973011709181388	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+137	146	1746973011709181388	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+146	165	1746973011736569000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+146	165	1746973011736569000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+146	165	1746973011736569000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+146	165	1746973011736569000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+165	6385	1746973011737141045	CMakeFiles/flash	2765c6b3c4f30303
+165	6385	1746973011737141045	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+74	151	1746973368775991526	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	151	1746973368775991526	bootloader/bootloader.elf	e0e07038ae738653
+74	151	1746973368775991526	bootloader/bootloader.bin	e0e07038ae738653
+74	151	1746973368775991526	bootloader/bootloader.map	e0e07038ae738653
+74	151	1746973368775991526	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	151	1746973368775991526	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+74	151	1746973368775991526	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+74	151	1746973368775991526	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+151	160	1746973368853076170	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+151	160	1746973368853076170	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+160	179	1746973368880799000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+160	179	1746973368880799000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+160	179	1746973368880799000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+160	179	1746973368880799000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+73	296	1746973368775411519	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+296	350	1746973368998530894	esp-idf/main/libmain.a	9d5d9ddeb2892772
+350	5343	1746973374022009005	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+350	5343	1746973374022009005	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5343	5899	1746973374045436122	ws2812b-led.elf	eb1580d64199c79f
+5899	6051	1746973374752704667	.bin_timestamp	65ccd08bc94a059
+5899	6051	1746973374752704667	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6051	6094	1746973374753365300	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6051	6094	1746973374753365300	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+65	108	1746973380276881231	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+65	108	1746973380276881231	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+64	129	1746973380276459393	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+64	129	1746973380276459393	bootloader/bootloader.elf	e0e07038ae738653
+64	129	1746973380276459393	bootloader/bootloader.bin	e0e07038ae738653
+64	129	1746973380276459393	bootloader/bootloader.map	e0e07038ae738653
+64	129	1746973380276459393	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+64	129	1746973380276459393	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+64	129	1746973380276459393	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+64	129	1746973380276459393	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+129	137	1746973380341003093	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+129	137	1746973380341003093	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+137	156	1746973380368023000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+137	156	1746973380368023000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+137	156	1746973380368023000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+137	156	1746973380368023000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+61	112	1746973381487256342	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+61	112	1746973381487256342	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+60	127	1746973381486490624	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+60	127	1746973381486490624	bootloader/bootloader.elf	e0e07038ae738653
+60	127	1746973381486490624	bootloader/bootloader.bin	e0e07038ae738653
+60	127	1746973381486490624	bootloader/bootloader.map	e0e07038ae738653
+60	127	1746973381486490624	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+60	127	1746973381486490624	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+60	127	1746973381486490624	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+60	127	1746973381486490624	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+128	136	1746973381553805067	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+128	136	1746973381553805067	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+136	155	1746973381581128000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+136	155	1746973381581128000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+136	155	1746973381581128000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+136	155	1746973381581128000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+155	6521	1746973381581670447	CMakeFiles/flash	2765c6b3c4f30303
+155	6521	1746973381581670447	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+75	149	1746973507858525755	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+75	149	1746973507858525755	bootloader/bootloader.elf	e0e07038ae738653
+75	149	1746973507858525755	bootloader/bootloader.bin	e0e07038ae738653
+75	149	1746973507858525755	bootloader/bootloader.map	e0e07038ae738653
+75	149	1746973507858525755	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+75	149	1746973507858525755	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+75	149	1746973507858525755	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+75	149	1746973507858525755	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+149	158	1746973507933140411	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+149	158	1746973507933140411	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+158	181	1746973507964505000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+158	181	1746973507964505000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+158	181	1746973507964505000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+158	181	1746973507964505000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+74	278	1746973507857913331	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+278	327	1746973508061887807	esp-idf/main/libmain.a	9d5d9ddeb2892772
+327	5288	1746973513051670884	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+327	5288	1746973513051670884	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5289	5845	1746973513072390885	ws2812b-led.elf	eb1580d64199c79f
+5847	5996	1746973513778463082	.bin_timestamp	65ccd08bc94a059
+5847	5996	1746973513778463082	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+5996	6038	1746973513779495511	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+5996	6038	1746973513779495511	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+63	116	1746973514626551128	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+63	116	1746973514626551128	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+62	139	1746973514626117081	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+62	139	1746973514626117081	bootloader/bootloader.elf	e0e07038ae738653
+62	139	1746973514626117081	bootloader/bootloader.bin	e0e07038ae738653
+62	139	1746973514626117081	bootloader/bootloader.map	e0e07038ae738653
+62	139	1746973514626117081	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+62	139	1746973514626117081	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+62	139	1746973514626117081	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+62	139	1746973514626117081	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+139	149	1746973514702911138	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+139	149	1746973514702911138	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+149	168	1746973514731541000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+149	168	1746973514731541000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+149	168	1746973514731541000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+149	168	1746973514731541000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+168	6532	1746973514732072159	CMakeFiles/flash	2765c6b3c4f30303
+168	6532	1746973514732072159	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+73	152	1746973665700494067	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	152	1746973665700494067	bootloader/bootloader.elf	e0e07038ae738653
+73	152	1746973665700494067	bootloader/bootloader.bin	e0e07038ae738653
+73	152	1746973665700494067	bootloader/bootloader.map	e0e07038ae738653
+73	152	1746973665700494067	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	152	1746973665700494067	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+73	152	1746973665700494067	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+73	152	1746973665700494067	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+152	162	1746973665779664403	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+152	162	1746973665779664403	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+162	182	1746973665809051000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+162	182	1746973665809051000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+162	182	1746973665809051000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+162	182	1746973665809051000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+72	256	1746973665699768392	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+257	298	1746973665884244256	esp-idf/main/libmain.a	9d5d9ddeb2892772
+298	5242	1746973670848992404	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+298	5242	1746973670848992404	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5242	5802	1746973670870076619	ws2812b-led.elf	eb1580d64199c79f
+5802	5948	1746973671575445474	.bin_timestamp	65ccd08bc94a059
+5802	5948	1746973671575445474	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+5949	5991	1746973671576301484	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+5949	5991	1746973671576301484	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+71	115	1746973672594163549	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+71	115	1746973672594163549	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+71	134	1746973672593783420	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+71	134	1746973672593783420	bootloader/bootloader.elf	e0e07038ae738653
+71	134	1746973672593783420	bootloader/bootloader.bin	e0e07038ae738653
+71	134	1746973672593783420	bootloader/bootloader.map	e0e07038ae738653
+71	134	1746973672593783420	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+71	134	1746973672593783420	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+71	134	1746973672593783420	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+71	134	1746973672593783420	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+134	143	1746973672657075521	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+134	143	1746973672657075521	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+143	162	1746973672684600000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+143	162	1746973672684600000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+143	162	1746973672684600000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+143	162	1746973672684600000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+162	6367	1746973672685142695	CMakeFiles/flash	2765c6b3c4f30303
+162	6367	1746973672685142695	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+74	151	1746973810763571660	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	151	1746973810763571660	bootloader/bootloader.elf	e0e07038ae738653
+74	151	1746973810763571660	bootloader/bootloader.bin	e0e07038ae738653
+74	151	1746973810763571660	bootloader/bootloader.map	e0e07038ae738653
+74	151	1746973810763571660	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	151	1746973810763571660	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+74	151	1746973810763571660	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+74	151	1746973810763571660	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+151	160	1746973810840258716	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+151	160	1746973810840258716	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+160	180	1746973810868917000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+160	180	1746973810868917000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+160	180	1746973810868917000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+160	180	1746973810868917000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+73	294	1746973810762765400	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+294	345	1746973810983468913	esp-idf/main/libmain.a	9d5d9ddeb2892772
+345	5321	1746973815990260821	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+345	5321	1746973815990260821	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5321	5877	1746973816010904822	ws2812b-led.elf	eb1580d64199c79f
+5877	6029	1746973816718395411	.bin_timestamp	65ccd08bc94a059
+5877	6029	1746973816718395411	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6029	6072	1746973816718925584	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6029	6072	1746973816718925584	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+68	112	1746973817894728025	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+68	112	1746973817894728025	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+68	132	1746973817894347312	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+68	132	1746973817894347312	bootloader/bootloader.elf	e0e07038ae738653
+68	132	1746973817894347312	bootloader/bootloader.bin	e0e07038ae738653
+68	132	1746973817894347312	bootloader/bootloader.map	e0e07038ae738653
+68	132	1746973817894347312	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+68	132	1746973817894347312	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+68	132	1746973817894347312	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+68	132	1746973817894347312	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+132	141	1746973817958802595	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+132	141	1746973817958802595	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+141	160	1746973817986356000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+141	160	1746973817986356000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+141	160	1746973817986356000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+141	160	1746973817986356000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+160	6521	1746973817986909061	CMakeFiles/flash	2765c6b3c4f30303
+160	6521	1746973817986909061	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+74	150	1746974383529933776	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	150	1746974383529933776	bootloader/bootloader.elf	e0e07038ae738653
+74	150	1746974383529933776	bootloader/bootloader.bin	e0e07038ae738653
+74	150	1746974383529933776	bootloader/bootloader.map	e0e07038ae738653
+74	150	1746974383529933776	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	150	1746974383529933776	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+74	150	1746974383529933776	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+74	150	1746974383529933776	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+150	160	1746974383606678916	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+150	160	1746974383606678916	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+160	180	1746974383635934000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+160	180	1746974383635934000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+160	180	1746974383635934000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+160	180	1746974383635934000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+73	312	1746974383529324644	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+312	361	1746974383768320170	esp-idf/main/libmain.a	9d5d9ddeb2892772
+361	5313	1746974388748375213	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+361	5313	1746974388748375213	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5313	5872	1746974388769198007	ws2812b-led.elf	eb1580d64199c79f
+5873	6022	1746974389478453909	.bin_timestamp	65ccd08bc94a059
+5873	6022	1746974389478453909	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6023	6065	1746974389478994457	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6023	6065	1746974389478994457	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+74	117	1746974390340989630	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+74	117	1746974390340989630	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+73	138	1746974390340607792	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	138	1746974390340607792	bootloader/bootloader.elf	e0e07038ae738653
+73	138	1746974390340607792	bootloader/bootloader.bin	e0e07038ae738653
+73	138	1746974390340607792	bootloader/bootloader.map	e0e07038ae738653
+73	138	1746974390340607792	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	138	1746974390340607792	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+73	138	1746974390340607792	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+73	138	1746974390340607792	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+138	147	1746974390405895669	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+138	147	1746974390405895669	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+147	167	1746974390433572000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+147	167	1746974390433572000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+147	167	1746974390433572000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+147	167	1746974390433572000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+167	6385	1746974390434194262	CMakeFiles/flash	2765c6b3c4f30303
+167	6385	1746974390434194262	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+73	148	1746974451266921158	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	148	1746974451266921158	bootloader/bootloader.elf	e0e07038ae738653
+73	148	1746974451266921158	bootloader/bootloader.bin	e0e07038ae738653
+73	148	1746974451266921158	bootloader/bootloader.map	e0e07038ae738653
+73	148	1746974451266921158	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+73	148	1746974451266921158	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+73	148	1746974451266921158	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+73	148	1746974451266921158	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+148	157	1746974451342532992	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+148	157	1746974451342532992	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+157	177	1746974451371200000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+157	177	1746974451371200000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+157	177	1746974451371200000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+157	177	1746974451371200000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+72	301	1746974451266319359	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+302	355	1746974451495856729	esp-idf/main/libmain.a	9d5d9ddeb2892772
+355	5340	1746974456513191640	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+355	5340	1746974456513191640	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5340	5896	1746974456534002934	ws2812b-led.elf	eb1580d64199c79f
+5896	6044	1746974457238213442	.bin_timestamp	65ccd08bc94a059
+5896	6044	1746974457238213442	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6045	6087	1746974457238851491	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6045	6087	1746974457238851491	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+64	108	1746974458238598295	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+64	108	1746974458238598295	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+64	127	1746974458238203915	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+64	127	1746974458238203915	bootloader/bootloader.elf	e0e07038ae738653
+64	127	1746974458238203915	bootloader/bootloader.bin	e0e07038ae738653
+64	127	1746974458238203915	bootloader/bootloader.map	e0e07038ae738653
+64	127	1746974458238203915	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+64	127	1746974458238203915	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+64	127	1746974458238203915	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+64	127	1746974458238203915	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+127	136	1746974458301784395	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+127	136	1746974458301784395	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+136	155	1746974458329119000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+136	155	1746974458329119000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+136	155	1746974458329119000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+136	155	1746974458329119000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+155	6346	1746974458329652359	CMakeFiles/flash	2765c6b3c4f30303
+155	6346	1746974458329652359	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+74	149	1746974507089531646	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	149	1746974507089531646	bootloader/bootloader.elf	e0e07038ae738653
+74	149	1746974507089531646	bootloader/bootloader.bin	e0e07038ae738653
+74	149	1746974507089531646	bootloader/bootloader.map	e0e07038ae738653
+74	149	1746974507089531646	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	149	1746974507089531646	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+74	149	1746974507089531646	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+74	149	1746974507089531646	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+149	158	1746974507165120272	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+149	158	1746974507165120272	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+158	177	1746974507192614000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+158	177	1746974507192614000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+158	177	1746974507192614000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+158	177	1746974507192614000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+73	287	1746974507088929264	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+287	333	1746974507302862319	esp-idf/main/libmain.a	9d5d9ddeb2892772
+333	5392	1746974512383356998	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+333	5392	1746974512383356998	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5392	5972	1746974512407722543	ws2812b-led.elf	eb1580d64199c79f
+5972	6120	1746974513135650089	.bin_timestamp	65ccd08bc94a059
+5972	6120	1746974513135650089	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6120	6163	1746974513136224679	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6120	6163	1746974513136224679	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+76	120	1746974514155830724	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+76	120	1746974514155830724	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+75	141	1746974514155431053	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+75	141	1746974514155431053	bootloader/bootloader.elf	e0e07038ae738653
+75	141	1746974514155431053	bootloader/bootloader.bin	e0e07038ae738653
+75	141	1746974514155431053	bootloader/bootloader.map	e0e07038ae738653
+75	141	1746974514155431053	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+75	141	1746974514155431053	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+75	141	1746974514155431053	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+75	141	1746974514155431053	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+141	149	1746974514220689845	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+141	149	1746974514220689845	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+149	168	1746974514247683000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+149	168	1746974514247683000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+149	168	1746974514247683000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+149	168	1746974514247683000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+168	6365	1746974514248212387	CMakeFiles/flash	2765c6b3c4f30303
+168	6365	1746974514248212387	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+78	159	1746974937791602527	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+78	159	1746974937791602527	bootloader/bootloader.elf	e0e07038ae738653
+78	159	1746974937791602527	bootloader/bootloader.bin	e0e07038ae738653
+78	159	1746974937791602527	bootloader/bootloader.map	e0e07038ae738653
+78	159	1746974937791602527	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+78	159	1746974937791602527	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+78	159	1746974937791602527	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+78	159	1746974937791602527	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+159	169	1746974937873134195	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+159	169	1746974937873134195	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+169	191	1746974937903893000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+169	191	1746974937903893000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+169	191	1746974937903893000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+169	191	1746974937903893000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+77	349	1746974937790949769	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+349	398	1746974938062990985	esp-idf/main/libmain.a	9d5d9ddeb2892772
+398	5572	1746974943262364556	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+398	5572	1746974943262364556	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5572	6132	1746974943285611425	ws2812b-led.elf	eb1580d64199c79f
+6133	6280	1746974943993454286	.bin_timestamp	65ccd08bc94a059
+6133	6280	1746974943993454286	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6281	6323	1746974943994265337	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6281	6323	1746974943994265337	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+75	119	1746974944865303328	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+75	119	1746974944865303328	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+74	142	1746974944864885240	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	142	1746974944864885240	bootloader/bootloader.elf	e0e07038ae738653
+74	142	1746974944864885240	bootloader/bootloader.bin	e0e07038ae738653
+74	142	1746974944864885240	bootloader/bootloader.map	e0e07038ae738653
+74	142	1746974944864885240	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+74	142	1746974944864885240	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+74	142	1746974944864885240	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+74	142	1746974944864885240	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+142	151	1746974944932703198	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+142	151	1746974944932703198	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+151	171	1746974944960837000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+151	171	1746974944960837000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+151	171	1746974944960837000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+151	171	1746974944960837000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+171	6388	1746974944961486260	CMakeFiles/flash	2765c6b3c4f30303
+171	6388	1746974944961486260	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
+78	154	1746976946174946502	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+78	154	1746976946174946502	bootloader/bootloader.elf	e0e07038ae738653
+78	154	1746976946174946502	bootloader/bootloader.bin	e0e07038ae738653
+78	154	1746976946174946502	bootloader/bootloader.map	e0e07038ae738653
+78	154	1746976946174946502	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+78	154	1746976946174946502	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+78	154	1746976946174946502	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+78	154	1746976946174946502	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+155	164	1746976946251987995	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+155	164	1746976946251987995	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+164	189	1746976946285718000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+164	189	1746976946285718000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+164	189	1746976946285718000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+164	189	1746976946285718000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+76	292	1746976946173823460	esp-idf/main/CMakeFiles/__idf_main.dir/led_strip_example_main.c.obj	d3b560af5d3f1e2f
+293	352	1746976946389929473	esp-idf/main/libmain.a	9d5d9ddeb2892772
+352	5398	1746976951471275153	esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+352	5398	1746976951471275153	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld	44e7511f2c1832f7
+5398	5955	1746976951495890788	ws2812b-led.elf	eb1580d64199c79f
+5956	6102	1746976952199053060	.bin_timestamp	65ccd08bc94a059
+5956	6102	1746976952199053060	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/.bin_timestamp	65ccd08bc94a059
+6102	6145	1746976952199741685	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+6102	6145	1746976952199741685	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+68	112	1746976953059241360	esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+68	112	1746976953059241360	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	1e4a354aeeeed26
+67	132	1746976953058839443	bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+67	132	1746976953058839443	bootloader/bootloader.elf	e0e07038ae738653
+67	132	1746976953058839443	bootloader/bootloader.bin	e0e07038ae738653
+67	132	1746976953058839443	bootloader/bootloader.map	e0e07038ae738653
+67	132	1746976953058839443	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	e0e07038ae738653
+67	132	1746976953058839443	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.elf	e0e07038ae738653
+67	132	1746976953058839443	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.bin	e0e07038ae738653
+67	132	1746976953058839443	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader/bootloader.map	e0e07038ae738653
+132	141	1746976953123487597	bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+132	141	1746976953123487597	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	d794f4300bad742f
+141	160	1746976953150836000	CMakeFiles/bootloader-complete	6668f21646ef4f38
+141	160	1746976953150836000	bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+141	160	1746976953150836000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/bootloader-complete	6668f21646ef4f38
+141	160	1746976953150836000	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	6668f21646ef4f38
+160	6841	1746976953151393734	CMakeFiles/flash	2765c6b3c4f30303
+160	6841	1746976953151393734	/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/CMakeFiles/flash	2765c6b3c4f30303
