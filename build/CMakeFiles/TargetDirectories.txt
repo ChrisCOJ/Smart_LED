@@ -831,3 +831,10 @@
 /Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/main/CMakeFiles/install.dir
 /Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/main/CMakeFiles/install/local.dir
 /Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/main/CMakeFiles/install/strip.dir
+/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mqtt_protocl_lib/CMakeFiles/__idf_mqtt_protocl_lib.dir
+/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mqtt_protocl_lib/CMakeFiles/edit_cache.dir
+/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mqtt_protocl_lib/CMakeFiles/rebuild_cache.dir
+/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mqtt_protocl_lib/CMakeFiles/list_install_components.dir
+/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mqtt_protocl_lib/CMakeFiles/install.dir
+/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mqtt_protocl_lib/CMakeFiles/install/local.dir
+/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mqtt_protocl_lib/CMakeFiles/install/strip.dir

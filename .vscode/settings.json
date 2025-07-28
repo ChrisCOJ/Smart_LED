@@ -9,5 +9,15 @@
   "idf.toolsPath": "/Users/chris/.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32"
+  },
+  "files.associations": {
+    "mqtt_config.h": "c",
+    "mqtt_priv.h": "c",
+    "mqtt.h": "c",
+    "mqtt_parser.h": "c",
+    "mqtt_util.h": "c",
+    "mqtt_protocol.h": "c",
+    "mqtt5_msg.h": "c",
+    "mqtt_msg.h": "c"
   }
 }

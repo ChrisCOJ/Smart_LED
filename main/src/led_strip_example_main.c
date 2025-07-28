@@ -11,22 +11,26 @@
 #include "driver/rmt_tx.h"
 #include "led_strip_encoder.h"
 
-#define RMT_LED_STRIP_RESOLUTION_HZ     10000000        // 10MHz resolution, 1 tick = 0.1us (led strip needs a high resolution)
-#define RMT_LED_STRIP_GPIO_NUM          GPIO_NUM_27
-#define MOSFET_TOGGLE_GPIO              GPIO_NUM_26
-#define MOSFET_GATE_GPIO                GPIO_NUM_12
-#define PIR_GPIO                        GPIO_NUM_35
+#include "mqtt_parser.h"
+#include "mqtt_protocol.h"
+#include "mqtt_util.h"
 
-#define EXAMPLE_LED_NUMBERS             300
-#define EXAMPLE_CHASE_SPEED_MS          10
+
+#define RMT_LED_STRIP_RESOLUTION_HZ     10000000        // 10MHz resolution, 1\tick = 0.1us (led strip needs a high resolution)
+#define RMT_LED_STRIP_GPIO_NUM          GPIO_NUM_26
+#define BUTTON_TOGGLE_GPIO              GPIO_NUM_27
+#define MOSFET_GATE_GPIO                GPIO_NUM_12
+#define PIR_GPIO                        GPIO_NUM_14
+
+#define LED_COUNT                       300
+#define CHASE_SPEED_MS                  10
 
 
 static int toggle_mosfet_gate = 0;
-static int toggle_button = 0;
 static bool pir_timer_active = false;
 static const char *TAG = "LED_STRIP";
 
-static uint8_t led_strip_pixels[EXAMPLE_LED_NUMBERS * 3];
+static uint8_t led_strip_pixels[LED_COUNT * 3];     // * 3 = RGB
 
 /**
  * @brief Simple helper function, converting HSV color space to RGB color space
@@ -95,25 +99,25 @@ void app_main(void)
         .pin_bit_mask = 1ULL << MOSFET_GATE_GPIO,
         .mode = GPIO_MODE_OUTPUT,
         .pull_up_en = GPIO_PULLUP_DISABLE,
-        .pull_down_en = GPIO_PULLDOWN_DISABLE,
+        .pull_down_en = GPIO_PULLDOWN_ENABLE,
         .intr_type = GPIO_INTR_DISABLE
     };
     gpio_config(&mosfet_gate_io_conf);
 
-    gpio_config_t mosfet_toggle_io_conf = {
-        .pin_bit_mask = (1ULL << MOSFET_TOGGLE_GPIO),
+    gpio_config_t button_toggle_io_conf = {
+        .pin_bit_mask = (1ULL << BUTTON_TOGGLE_GPIO),
         .mode = GPIO_MODE_INPUT,
         .pull_up_en = GPIO_PULLUP_ENABLE,
         .pull_down_en = GPIO_PULLDOWN_DISABLE,
         .intr_type = GPIO_INTR_DISABLE
     };
-    gpio_config(&mosfet_toggle_io_conf);
+    gpio_config(&button_toggle_io_conf);
 
     gpio_config_t pir_io_config = {
         .pin_bit_mask = (1ULL << PIR_GPIO),
         .mode = GPIO_MODE_INPUT,
         .pull_up_en = GPIO_PULLUP_DISABLE,
-        .pull_down_en = GPIO_PULLDOWN_DISABLE,
+        .pull_down_en = GPIO_PULLDOWN_ENABLE,
         .intr_type = GPIO_INTR_DISABLE
     };
     gpio_config(&pir_io_config);
@@ -153,33 +157,29 @@ void app_main(void)
 
     TimerHandle_t pir_off = xTimerCreate("pir_off", pdMS_TO_TICKS(4000), pdFALSE, NULL, disable_timer);  // 20 seconds cd
     while (1) {
-        if (!gpio_get_level(MOSFET_TOGGLE_GPIO)) {
+        if (!gpio_get_level(BUTTON_TOGGLE_GPIO)) {
             toggle_mosfet_gate ^= 1;
-            toggle_button ^= 1;
             vTaskDelay(200 / portTICK_PERIOD_MS);
         }
 
         if (gpio_get_level(PIR_GPIO) && !pir_timer_active) {
             vTaskDelay(50 / portTICK_PERIOD_MS);  // debounce delay
-
-            if (gpio_get_level(PIR_GPIO)) {
-                toggle_mosfet_gate = 1;
-                // Start a cooldown timer where the pir will not be read by the mcu gpio
-                pir_timer_active = true;
-                xTimerStart(pir_off, 0);
-            }
+            toggle_mosfet_gate = 1;
+            // Start a cooldown timer. The pir gpio will be ignored while this timer is active.
+            pir_timer_active = true;
+            xTimerStart(pir_off, 0);
         }
 
         if (toggle_mosfet_gate) {
             gpio_set_level(MOSFET_GATE_GPIO, 1);
             for (int i = 0; i < 3; ++i) {
-                for (int j = i; j < EXAMPLE_LED_NUMBERS; j += 3) {
+                for (int j = i; j < LED_COUNT; j += 3) {
                     // Build RGB pixels
-                    // hue = j * 360 / EXAMPLE_LED_NUMBERS + start_rgb;
+                    // hue = j * 360 / LED_COUNT + start_rgb;
                     led_strip_hsv2rgb(100, 50, 100, &red, &green, &blue);
-                    led_strip_pixels[j * 3 + 0] = 0;
-                    led_strip_pixels[j * 3 + 1] = 0;
-                    led_strip_pixels[j * 3 + 2] = blue;
+                    led_strip_pixels[j * 3 + 0] = 0;    // green
+                    led_strip_pixels[j * 3 + 1] = 0;    // red
+                    led_strip_pixels[j * 3 + 2] = blue; // blue
                 }
             }
             // Flush RGB values to LEDs

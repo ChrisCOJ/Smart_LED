@@ -82,3 +82,4 @@
 /Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/spiffs/libspiffs.a
 /Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/main/libmain.a
+/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mqtt_protocl_lib/libmqtt_protocl_lib.a
