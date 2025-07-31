@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/chris/esp/v5.4/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/Users/chris/esp/v5.4/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader"
-  "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix"
-  "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/tmp"
-  "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src"
-  "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/bootloader"
+  "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/bootloader-prefix"
+  "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/bootloader-prefix/tmp"
+  "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/bootloader-prefix/src"
+  "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

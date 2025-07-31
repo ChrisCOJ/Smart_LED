@@ -1,2 +1,37 @@
-.vscode
-.devcontainer
+# Build artifacts
+/build/
+*.o
+*.obj
+*.a
+*.elf
+*.map
+*.bin
+*.hex
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# VSCode settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ESP-IDF specific
+sdkconfig.old
+*.log
+
+# Backup or temporary files
+*~
+*.swp
+.DS_Store
+
+# env
+.env
+env_config.h

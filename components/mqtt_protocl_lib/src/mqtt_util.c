@@ -4,8 +4,12 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "esp_log.h"
+
 #include "../include/mqtt_parser.h"
 
+
+#define UTILS_TAG               "UTIL"
 
 int check(int status, const char* msg) {
     /* Error checking function */
@@ -26,7 +30,7 @@ void push(vector *arr, void *item) {
         arr->data = realloc(arr->data, arr->capacity * arr->item_size);
 
         if (!arr->data) {
-            perror("Realloc failed!");
+            ESP_LOGE(UTILS_TAG, "Realloc failed!");
             exit(EXIT_FAILURE);
         }
     }

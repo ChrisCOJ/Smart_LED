@@ -41,6 +41,7 @@ typedef struct {
     int return_code;
 } packing_status;
 
+
 /**
  * @brief Encodes the MQTT Remaining Length field using variable-length encoding.
  *

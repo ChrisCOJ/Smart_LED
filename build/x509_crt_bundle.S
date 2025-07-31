@@ -1,4 +1,4 @@
-/* * Data converted from /Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/chris/Documents/coding projects/esp32_projects/smart_led/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

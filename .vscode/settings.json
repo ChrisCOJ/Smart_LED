@@ -18,6 +18,11 @@
     "mqtt_util.h": "c",
     "mqtt_protocol.h": "c",
     "mqtt5_msg.h": "c",
-    "mqtt_msg.h": "c"
+    "mqtt_msg.h": "c",
+    "socket.h": "c",
+    "sockets.h": "c",
+    "mqtt_client_api.h": "c",
+    "gpio.h": "c",
+    "smart_led_mqtt.h": "c"
   }
 }

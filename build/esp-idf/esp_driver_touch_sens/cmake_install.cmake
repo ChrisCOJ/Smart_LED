@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_driver_touch_sens/install_local_manifest.txt"
+  file(WRITE "/Users/chris/Documents/coding projects/esp32_projects/smart_led/build/esp-idf/esp_driver_touch_sens/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

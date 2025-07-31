@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: /Users/chris/Documents/coding projects/esp32_projects/ws2812b-led/build/esp-idf/esp_system/ld/sections.ld.in */
+/* Generated from: /Users/chris/Documents/coding projects/esp32_projects/smart_led/build/esp-idf/esp_system/ld/sections.ld.in */
 
 /*
  * SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD

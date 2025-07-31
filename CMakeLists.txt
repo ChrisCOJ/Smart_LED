@@ -2,5 +2,9 @@
 # in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.16)
 
+execute_process(
+    COMMAND ${CMAKE_COMMAND} -E make_directory ${CMAKE_BINARY_DIR}
+)
+
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(ws2812b-led)
+project(smart_led)
